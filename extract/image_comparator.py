@@ -48,7 +48,7 @@ if __name__ == '__main__':
         i = 0
         for ff in sorted(val.keys()):
             i = i + 1
-            if i > 100:
+            if i > 10:
                 break
 
             print(key, val[ff], ff)
